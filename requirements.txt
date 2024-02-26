@@ -1,0 +1,15 @@
+Either create a virtual environment and download the dependencies into a new environment, work inside that one.
+
+https://docs.python.org/3/library/venv.html
+
+*Or* 
+
+Download the missing packages system wide (a touch easier, but not recommended) with the following: 
+
+Linux:
+  sudo pip3 install adafruit-circuitpython-servokit
+  sudo pip3 install numpy
+
+Windows:
+  pip install adafruit-circuitpython-servokit
+  pip install numpy

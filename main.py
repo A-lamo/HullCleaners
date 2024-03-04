@@ -130,5 +130,5 @@ if __name__ == '__main__':
     south = Leg([4, 5])   #South
     west = Leg([6, 7])   #West    
     
-    #brush.rotate()
-    #step(1)
+    brush.rotate()
+    step(1) # defines how many iterations the robot's stepping function should run.

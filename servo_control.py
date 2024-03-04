@@ -91,9 +91,11 @@ def to_angle(num, initial, end, phi):
     if initial <= end:
         for i in range(initial, end*phi, 1):
             pca.servo[num].angle = i/phi
+             print(f"ANGLE OF SERVO {num} : {pca.servo[num].angle}")
     else:
         for i in range(initial*phi, end, -1):
-            pca.servo[num].angle = i/phi            
+            pca.servo[num].angle = i/phi
+            print(f"ANGLE OF SERVO {num} : {pca.servo[num].angle}")
 
 # set servo to its minimal angle
 def to_min(num, phi):

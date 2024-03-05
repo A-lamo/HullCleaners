@@ -6,10 +6,6 @@ https://docs.python.org/3/library/venv.html
 
 Download the missing packages system wide (a touch easier, but not recommended) with the following: 
 
-Linux:
-  sudo pip3 install adafruit-circuitpython-servokit
-  sudo pip3 install numpy
-
-Windows:
-  pip install adafruit-circuitpython-servokit
-  pip install numpy
+sudo pip3 install adafruit-circuitpython-pca9685
+sudo pip3 install adafruit-circuitpython-servokit
+sudo pip3 install numpy

@@ -124,11 +124,11 @@ def step(num_steps):
 
 if __name__ == '__main__':
     init()
-    brush = Brush(15, 2)
-    north = Leg([0, 1])   #North
-    east = Leg([2, 3])   #East
-    south = Leg([4, 5])   #South
-    west = Leg([6, 7])   #West    
+    brush = Brush(15, 2) #Brush, servo = pin15,  rotation speed = 2
+    north = Leg([0, 1])  #North, bottom servo = pin0, top servo = pin1
+    east = Leg([2, 3])   #East,  bottom servo = pin2, top servo = pin3
+    south = Leg([4, 5])  #South, bottom servo = pin4, top servo = pin5
+    west = Leg([6, 7])   #West,  bottom servo = pin6, top servo = pin7
     
     brush.rotate()
     step(1) # defines how many iterations the robot's stepping function should run.
